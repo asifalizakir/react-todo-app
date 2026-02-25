@@ -13,7 +13,8 @@ function App() {
 
 return<>
   <input type="text" value={count} onChange={(e)=>setCount(e.target.value)}></input>
-
+<button onClick={add}>Add</button>
+<button onClick={()=>setData([])}>Clear</button>
   </>
 
 }
